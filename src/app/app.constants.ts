@@ -65,7 +65,7 @@ export const APPEND_URL = {
   cancelAppointment: 'appointment/',
   vid : '/vid',
   otp_service: 'idauthentication/v1/internal/otp',
-  otp_resident_services_new:'idauthentication/v1/otp/',
+  otp_resident_services_new:"resident/v1/req/otp/",
   resident_service:'resident/v1/',
   check_status:'rid/check-status',
   euin:'req/euin',
