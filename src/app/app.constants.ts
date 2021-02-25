@@ -22,7 +22,7 @@ export const IDS = {
   documentUpload: 'mosip.pre-registration.document.upload',
   applicantTypeId: 'mosip.applicanttype.fetch',
   generateVidId: 'mosip.resident.vid',
-  sendOtpForServices:'mosip.identity.otp',
+  sendOtpForServices: "mosip.identity.otp.internal",
   revokeVid: 'mosip.resident.vidstatus',
   residentTokenId:'mosip.authentication.useridPwd',
   printUIN: 'mosip.resident.printuin',

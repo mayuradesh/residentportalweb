@@ -1,5 +1,5 @@
 { 
-  "BASE_URL": "https://sandboxv2.southindia.cloudapp.azure.com/", 
+  "BASE_URL": "https://localhost:4200/proxyapi/", 
   "PRE_REG_URL": "preregistration/v1/",
   "MISP-LicenseKey":"lqYQppFeepGlHCqlWbJj8EkW2Fs9XkkeVxIEBGtF9X2IKAV9EI/",
   "Partner-ID":"242447/",

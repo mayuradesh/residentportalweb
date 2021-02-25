@@ -459,12 +459,10 @@ export class DataStorageService {
     const obj = new RequestModelSendOtp(uin, idType);
 
     //const url = this.BASE_URL + this.PRE_REG_URL + appConstants.APPEND_URL.auth + appConstants.APPEND_URL.send_otp;
+    //const url = this.BASE_URL + appConstants.APPEND_URL.otp_resident_services_new + this.MISP_LicenseKey + this.Partner_ID + this.Partner_Api_Key
+    //;
     const url =
-      this.BASE_URL +
-      appConstants.APPEND_URL.otp_resident_services_new +
-      this.MISP_LicenseKey +
-      this.Partner_ID +
-      this.Partner_Api_Key;
+      this.BASE_URL + appConstants.APPEND_URL.otp_resident_services_new;
     console.log("in sendotpforservices");
     var x = this.httpClient.post(url, obj, {
       headers: new HttpHeaders({ Authorization: authHeader }),
